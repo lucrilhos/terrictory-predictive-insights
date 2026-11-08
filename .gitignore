@@ -1,0 +1,16 @@
+# saída do Maven
+target/
+
+# banco H2 local (é criado sozinho na primeira execução)
+banco/
+*.mv.db
+*.trace.db
+
+# IDEs
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+out/
