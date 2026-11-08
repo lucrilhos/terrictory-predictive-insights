@@ -19,7 +19,7 @@ Sistema de console em Java que monitora um ponto vulnerável a alagamento (um tr
 
 **Qual decisão ele apoia?** *"preciso agir agora, daqui a pouco, ou só acompanhar?"* — por exemplo, intensificar o monitoramento, avisar os moradores do trecho, acionar a limpeza de bueiros e bocas de lobo, ou deixar uma equipe de prontidão. O sistema **não decide** nada sozinho: ele organiza os dados e sinaliza; a decisão continua com a pessoa responsável (ver a reflexão crítica, seção 8).
 
-> O território é descrito por **região e equipamento**, nunca por pessoas. O sistema não guarda nome, CPF ou endereço de ninguém; a população em risco é só um número estimado da região.
+> O território é descrito por **região e equipamento**, não por pessoas. O sistema não guarda nome, CPF ou endereço de ninguém! *população em risco como número estimado
 
 ---
 
@@ -111,7 +111,7 @@ CATALOGO.put("MEDIA_MOVEL", PrevisaoMediaMovel::new);
 CATALOGO.put("COMPARACAO", PrevisaoComparacao::new);
 ```
 
-O menu nunca dá `new PrevisaoMediaMovel()`: ele pede `FabricaPrevisao.criar(nome)`. Para incluir uma terceira estratégia basta criar a classe e adicionar **uma linha** no mapa; menu e serviço continuam iguais.
+O menu nunca dá `new PrevisaoMediaMovel()`: ele pede `FabricaPrevisao.criar(nome)`. Para incluir uma terceira estratégia basta criar a classe e adicionar **uma linha** no mapa, menu e serviço continuam iguais.
 
 ---
 
